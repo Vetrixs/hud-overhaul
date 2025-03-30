@@ -4,8 +4,13 @@
   "version": "${version}",
   "name": "hud-overhaul",
   "description": "Basic Hud Overhaul",
-  "authors": ["Vetrixs"],
-  "contact": {},
+  "authors": [
+    "Vetrixs"
+  ],
+  "contact": {
+    "sources": "https://github.com/Vetrixs/hud-overhaul",
+    "issues": "https://github.com/Vetrixs/hud-overhaul/issues"
+  },
   "license": "All-Rights-Reserved",
   "icon": "assets/hud-overhaul/icon.png",
   "environment": "client",
@@ -15,6 +20,9 @@
     ],
     "main": [
       "de.vetrixs.hudOverhaul.HudOverhaul"
+    ],
+    "modmenu": [
+      "de.vetrixs.hudOverhaul.client.ModMenuIntegration"
     ]
   },
   "depends": {
