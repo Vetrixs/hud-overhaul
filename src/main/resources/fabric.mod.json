@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "hud-overhaul",
+  "version": "${version}",
+  "name": "hud-overhaul",
+  "description": "Basic Hud Overhaul",
+  "authors": ["Vetrixs"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/hud-overhaul/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.vetrixs.hudOverhaul.client.HudOverhaulClient"
+    ],
+    "main": [
+      "de.vetrixs.hudOverhaul.HudOverhaul"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
